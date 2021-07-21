@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'sentence.virts.app',
+    title: '鸡汤囤货',
     htmlAttrs: {
       lang: 'en'
     },
