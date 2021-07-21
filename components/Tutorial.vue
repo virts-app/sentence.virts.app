@@ -49,7 +49,6 @@
       changeSentence() {
         const now = Date.parse(new Date()) / 1000
         if (now < this.change_time) {
-          console.log(this.change_time - now)
           return
         }
         const sentences = this.sentence_list
@@ -61,7 +60,7 @@
         this.sentence = sentences[this.sentence_number].get('content')
         this.author = sentences[this.sentence_number].get('author')
         // this.change_time = now + (this.sentence.length / 10)
-        this.change_time = now + 3
+        this.change_time = now + 2
       }
     },
   }
