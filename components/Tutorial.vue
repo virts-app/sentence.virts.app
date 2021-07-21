@@ -49,7 +49,6 @@
         const sentences = this.sentence_list
         var random_number = Math.floor((Math.random() * sentences.length))
         while(this.sentence_number == random_number){
-          console.log(1)
           random_number = Math.floor((Math.random() * sentences.length))
         }
         this.sentence_number = random_number
