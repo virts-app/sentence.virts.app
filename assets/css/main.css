@@ -1,0 +1,27 @@
+.sentence-font {
+  /* color: #660000; */
+  font-family: "sentence" !important;
+  /* font-size: ; */
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  pointer-events: auto;
+}
+.author-font {
+  /* color: #660000; */
+  /* font-family: "author" !important; */
+  font-family: "sentence" !important;
+  /* font-size: ; */
+}
+
+@font-face {
+  font-family: 'sentence';
+  font-weight: normal;
+  src: url('https://priate.oss-cn-beijing.aliyuncs.com/products/assets/q-note.virts.app.ttf') format('truetype')
+}
+
+/* @font-face {
+  font-family: 'author';
+  font-weight: normal;
+  src: url('https://priate.oss-cn-beijing.aliyuncs.com/products/assets/doc.virts.app.otf') format('truetype')
+} */
